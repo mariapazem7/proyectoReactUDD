@@ -1,1 +1,0 @@
-const URL_BASE = "https://api.thedogapi.com/v1/"
