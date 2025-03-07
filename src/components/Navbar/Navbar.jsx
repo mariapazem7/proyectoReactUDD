@@ -15,16 +15,16 @@ export const Navbar = () => {
                             <Link className="nav-link active" aria-current="page" to = "/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to ="/about">About us</Link>
+                            <Link className="nav-link" to ="/advice"> Advice</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to ="/advice"> Advice</Link>
+                            <Link className="nav-link" to ="/about">About us</Link>
                         </li>
                     </ul>
                 </div>
             </div>
        </nav>     
 
-    )
+    );
 
-}
+};

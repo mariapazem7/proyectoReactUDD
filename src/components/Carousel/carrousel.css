@@ -1,0 +1,19 @@
+.containerCarrousel {
+
+  width: 30%; 
+  margin: 0 auto; 
+  padding-top: 30px;
+
+  img {
+    border-radius: 100px; 
+    object-fit: cover; 
+  } 
+}
+
+      
+@media (max-width: 768px) {
+
+  .containerCarrousel {
+    width: 70%; 
+  }
+}

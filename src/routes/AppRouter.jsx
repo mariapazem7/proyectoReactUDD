@@ -3,6 +3,8 @@ import { Home } from "../pages/Home/Home"
 import { Navbar } from "../components/Navbar/navbar"
 import { About } from "../pages/About/About"
 import { Advice } from "../pages/Advice/Advice"
+import { Footer } from "../components/Footer/Footer"
+import { NotFound } from "../components/NotFound/NotFound"
 
 
 export const AppRouter = () => {
@@ -11,10 +13,13 @@ export const AppRouter = () => {
             <Navbar/>
             <Routes>
                 <Route path="/" element={<Home />}/>
-                <Route path="/about" element={<About/>}/>
                 <Route path="/advice" element={<Advice/>}/>
-                {/* Agregar ruta NotFound*/}
+                <Route path="/about" element={<About/>}/>
+                <Route path="*" element={<NotFound />} />
             </Routes>
+
+            <Footer/>
+    
         </>
-    )
-}
+    );
+};

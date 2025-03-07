@@ -1,6 +1,20 @@
 Header {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
     text-align: center;
+
+}
+
+Header h1 {
+    font-size: 70px;   
+    color:rgb(188, 131, 90);
+    text-shadow: 2px 2px 4px rgba(202, 180, 112, 0.947);;
+}
+
+.subtitle-contenedor {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-style: italic;
 
 }
