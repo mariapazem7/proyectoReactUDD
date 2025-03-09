@@ -89,5 +89,5 @@ Se destacan los siguientes puntos:
 - **React Router Dom**: Librería para manejar la navegación entre páginas.
 - **ErrorBoundary**: Componente utilizado para manejar errores de manera segura en React.
 
-Realice la separación de una carpeta components y pages. En components se establece el código reutilizable que se aplicará en diferentes páginas (pages). Se enruta todo en la carpeta routes, utlizando React Router Dom.
+Realicé la separación de una carpeta components y pages. En components se establece el código reutilizable que se aplicará en diferentes páginas (pages). Se enruta todo en la carpeta routes, utlizando React Router Dom.
 
