@@ -23,7 +23,7 @@ Para instalar este proyecto"
 
 La estructura del proyecto está organizada de la siguiente manera:
 
-- proyecto-5-react
+proyecto-5-react
 │  ├─ node_modules
 │  ├─ public
 │  ├─ src
