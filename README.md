@@ -21,7 +21,66 @@ Para instalar este proyecto"
 
 ## Estructura del Proyecto
 
-La estructura del proyecto está organizada de la siguiente manera:
-
-proyecto-5-react/ ├── node_modules/ ├── public/ ├── src/ │ ├── assets/ │ │ ├── Images/ │ │ │ └── react.svg │ ├── components/ │ │ ├── Carousel/ │ │ │ ├── Carousel.css │ │ │ └── Carousel.jsx │ │ ├── Container/ │ │ │ ├── Container.css │ │ │ └── Container.jsx │ │ ├── ContainerDos/ │ │ │ ├── ContainerDos.css │ │ │ └── ContainerDos.jsx │ │ ├── Error/ │ │ │ └── ErrorFallback.jsx
-│ │ ├── Footer/ │ │ │ ├── Footer.css │ │ │ └── Footer.jsx │ │ ├── Formulario/ │ │ │ ├── Formulario.css │ │ │ └── Formulario.jsx │ │ ├── Header/ │ │ │ ├── Header.css │ │ │ └── Header.jsx │ │ ├── ModalAdvice/ │ │ │ ├── ModalAdvice.css │ │ │ └── ModalAdvice.jsx │ │ ├── Navbar/ │ │ │ └── Navbar.jsx │ │ └── NotFound/ │ │ └── NotFound.jsx │ ├── data/ │ │ └── imageData.js │ ├── hooks/ │ │ └── useAdvice.js │ ├── pages/ │ │ ├── About/ │ │ │ └── About.jsx │ │ ├── Advice/ │ │ │ ├── Advice.css │ │ │ └── Advice.jsx │ │ └── Home/ │ │ └── Home.jsx │ ├── routes/ │ │ └── AppRouter.jsx │ └── services/ │ └── fetchAdvice.jsx │ ├── App.css │ ├── App.jsx │ ├── index.css │ └── main.jsx ├── .gitignore ├── eslintrc.config.js ├── index.html ├── package-lock.json ├── package.json ├── README.md └── vite.config.js
+```bash
+proyecto-5-react/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/
+│   │   ├── Images/
+│   │   │   └── react.svg
+│   ├── components/
+│   │   ├── Carousel/
+│   │   │   ├── Carousel.css
+│   │   │   └── Carousel.jsx
+│   │   ├── Container/
+│   │   │   ├── Container.css
+│   │   │   └── Container.jsx
+│   │   ├── ContainerDos/
+│   │   │   ├── ContainerDos.css
+│   │   │   └── ContainerDos.jsx
+│   │   ├── Error/
+│   │   │   └── ErrorFallback.jsx  
+│   │   ├── Footer/
+│   │   │   ├── Footer.css
+│   │   │   └── Footer.jsx
+│   │   ├── Formulario/
+│   │   │   ├── Formulario.css
+│   │   │   └── Formulario.jsx
+│   │   ├── Header/
+│   │   │   ├── Header.css
+│   │   │   └── Header.jsx
+│   │   ├── ModalAdvice/
+│   │   │   ├── ModalAdvice.css
+│   │   │   └── ModalAdvice.jsx
+│   │   ├── Navbar/
+│   │   │   └── Navbar.jsx
+│   │   └── NotFound/
+│   │       └── NotFound.jsx
+│   ├── data/
+│   │   └── imageData.js
+│   ├── hooks/
+│   │   └── useAdvice.js
+│   ├── pages/
+│   │   ├── About/
+│   │   │   └── About.jsx
+│   │   ├── Advice/
+│   │   │   ├── Advice.css
+│   │   │   └── Advice.jsx
+│   │   └── Home/
+│   │       └── Home.jsx
+│   ├── routes/
+│   │   └── AppRouter.jsx
+│   └── services/
+│       └── fetchAdvice.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslintrc.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
