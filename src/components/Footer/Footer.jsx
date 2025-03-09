@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom";
-import "./Footer.css"
+import { Link } from 'react-router-dom';
+import './Footer.css'
 
 export const Footer = () => {
     const currentYear = new Date().getFullYear();
   
     return (
-        
         <footer className="footer">
         <div className="container text-center">
             <p>&copy; {currentYear} Random Advice. All rights reserved.</p>

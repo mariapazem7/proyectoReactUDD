@@ -10,3 +10,6 @@ export const imagesAdvice = [
     { src:image2, alt: 'advice 2'},
     { src:image3, alt: 'advice 3'},
 ];
+
+
+//Para probar el ErrorBoundary de Carrusel, borré las imagenes de imagesAdvice y dejé el arreglo vacio// 

@@ -1,4 +1,4 @@
-import "./ContainerDos.css"
+import './ContainerDos.css'
 
 export const ContainerDos = ({ title, subtitle, backgroundClass }) => {
     return (

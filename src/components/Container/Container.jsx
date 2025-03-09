@@ -1,8 +1,10 @@
 
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
+
 import './Container.css'; 
 
 export const Container = ({ title, subtitle, buttonText, buttonLink, backgroundClass }) => {
+ 
   return (
     <div className="container custom-container py-5">
       <div className="row">
@@ -19,6 +21,7 @@ export const Container = ({ title, subtitle, buttonText, buttonLink, backgroundC
         </div>
       </div>
     </div>
+    
   );
 };
 

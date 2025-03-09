@@ -1,8 +1,16 @@
 
-import './Carrousel.css'
+import { ErrorBoundary } from 'react-error-boundary';
+import { ErrorFallback } from '../Error/ErrorFallBack';
+
+import './Carousel.css'
 
 export const Carousel = ({ images }) => {
+
+    if (!images || images.length === 0) {
+        throw new Error('No se han proporcionado imágenes para el carrusel.');}
+
     return (
+        <ErrorBoundary FallbackComponent={ErrorFallback}>
         <div className='containerCarrousel'>
             <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
@@ -37,5 +45,6 @@ export const Carousel = ({ images }) => {
             </div>
 
       </div>
+      </ErrorBoundary> 
     );
   };

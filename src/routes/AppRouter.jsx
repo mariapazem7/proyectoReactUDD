@@ -1,10 +1,10 @@
-import { Route, Routes } from "react-router-dom"
-import { Home } from "../pages/Home/Home"
-import { Navbar } from "../components/Navbar/navbar"
-import { About } from "../pages/About/About"
-import { Advice } from "../pages/Advice/Advice"
-import { Footer } from "../components/Footer/Footer"
-import { NotFound } from "../components/NotFound/NotFound"
+import { Route, Routes } from 'react-router-dom'
+import { Home } from '../pages/Home/Home'
+import { Navbar } from '../components/Navbar/Navbar'
+import { About } from '../pages/About/About'
+import { Advice } from '../pages/Advice/Advice'
+import { Footer } from '../components/Footer/Footer'
+import { NotFound } from '../components/NotFound/NotFound'
 
 
 export const AppRouter = () => {

@@ -1,6 +1,7 @@
-import "./Formulario.css"
+import './Formulario.css'
 
 export const Formulario = () => {
+    
   return (
     <div className="container-form">
         <div className="container mt-5">
@@ -52,5 +53,6 @@ export const Formulario = () => {
             </div>
         </div>
     </div>
+    
   );
 };

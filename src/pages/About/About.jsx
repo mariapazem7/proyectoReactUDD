@@ -1,8 +1,9 @@
 
-import { ContainerDos } from "../../components/ContainerDos/ContainerDos"
-import { Formulario } from "../../components/Formulario/Formulario"
+import { ContainerDos } from '../../components/ContainerDos/ContainerDos'
+import { Formulario } from '../../components/Formulario/Formulario'
 
 export const About = () => {
+    
     return (
         <>
             <ContainerDos
@@ -26,7 +27,6 @@ export const About = () => {
             />
 
             <Formulario/>
-
 
         </>
 
