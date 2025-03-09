@@ -1,5 +1,5 @@
 
-import { Link } from 'react-router-dom'; // Importa el componente Link
+import { Link } from 'react-router-dom'; 
 
 export const NotFound = () => {
 
