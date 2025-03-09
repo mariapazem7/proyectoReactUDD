@@ -77,6 +77,8 @@ proyecto-5-react/
 ├── README.md
 └── vite.config.js
 
+```
+
 Se destacan los siguientes puntos:
 
 ## Tecnologías utilizadas
